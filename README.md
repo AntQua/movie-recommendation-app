@@ -1,4 +1,4 @@
-# Movie Recommendation App
+# 🎥 Movie Recommendation App
 
 Welcome to the **Movie Recommendation App**! This project is a Streamlit-based web application that allows users to search for movies and receive personalized recommendations. The app leverages a vector database powered by **Weaviate** for efficient search and recommendation functionality.
 
