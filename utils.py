@@ -35,9 +35,9 @@ def main():
         assert client.is_ready()  # Check connection status (i.e. is the Weaviate server ready)
 
         # Try a query
-        # movies = client.collections.get("Movie")
-        # response = movies.query.near_text(query="time travel", limit=1)
-        # assert len(response.objects) == 1
+        movies = client.collections.get("Movie")
+        response = movies.query.near_text(query="time travel", limit=1)
+        assert len(response.objects) == 1
         print("Success! You appear to be correctly set up.")
     finally:
         # Close the connection
